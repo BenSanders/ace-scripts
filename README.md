@@ -11,3 +11,5 @@ The general order to run these scripts are as follows:
 * `start-ace.sh`
 
 My hope is to make the second script able to take user input for their chosen MySQL passwords to go into the docker.env.
+
+At the moment this is being tested on Ubuntu 24.04 LTS.
