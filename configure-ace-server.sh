@@ -55,8 +55,8 @@ echo "done" >&2
 # Download ac-updates.zip, you can replace with another version if you want
 curl -JO "https://drive.anfg.net/public.php/dav/files/AYEETFpMBZ2Qf58/?accept=zip"
 
-# Create and cd into Dats directory
-mkdir -p Dats && cd /Dats
+# Create Dats directory
+mkdir -p Dats
 
 # Unzip ac-updates.zip to /Dats
-unzip ac-updates.zip -d /Dats
+unzip ac-updates.zip -d Dats/
